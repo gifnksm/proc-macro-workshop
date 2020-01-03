@@ -1,0 +1,13 @@
+error: cannot derive `Builder` for enum `Enum`
+ --> $DIR/10-derive-for-enum-union.rs:4:1
+  |
+4 | pub enum Enum {}
+  | ^^^^^^^^^^^^^^^^
+
+error: cannot derive `Builder` for union `Union`
+ --> $DIR/10-derive-for-enum-union.rs:7:1
+  |
+7 | / pub union Union {
+8 | |     dummy: i32,
+9 | | }
+  | |_^
